@@ -9,33 +9,64 @@ internal class Program1
 {
     static void Main(string[] args)
     {
-        
-            Console.Write("Enter a day number (1-7): ");
+        Console.WriteLine("Enter the day");
+        bool
 
-        bool isParsed = int.TryParse(Console.ReadLine(), out int dayNumber);
-        if(isParsed && dayNumber>=1 && dayNumber <=7 )
-            {
-            DayOfWeek day = (DayOfWeek)dayNumber;
+
+
+
+
+
+
+
+
+    }
+
+
+}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //       //Console.Write("Enter a day number (1-7): ");
+
+    //    bool isParsed = int.TryParse(Console.ReadLine(), out int dayNumber);
+    //    if(isParsed && dayNumber>=1 && dayNumber <=7 )
+    //        {
+    //        DayOfWeek day = (DayOfWeek)dayNumber;
            
 
-                Console.WriteLine("Day: " + day);
+    //            Console.WriteLine("Day: " + day);
 
-                switch (day)
-                {
-                    case DayOfWeek.Friday:
-                    case DayOfWeek.Saturday:
-                        Console.WriteLine("Weekend");
-                        break;
+    //            switch (day)
+    //            {
+    //                case DayOfWeek.Friday:
+    //                case DayOfWeek.Saturday:
+    //                    Console.WriteLine("Weekend");
+    //                    break;
 
-                    default:
-                        Console.WriteLine("Workday");
-                        break;
-                }
-            }
-            else
-            {
-                Console.WriteLine("Invalid input!");
-            }
-        }
-    }
+    //                default:
+    //                    Console.WriteLine("Workday");
+    //                    break;
+    //            }
+    //        }
+    //        else
+    //        {
+    //            Console.WriteLine("Invalid input!");
+    //        }
+    //    }
+    //}
         
